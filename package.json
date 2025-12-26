@@ -1,0 +1,46 @@
+{
+  "name": "use-high-order",
+  "version": "1.0.0",
+  "description": "React hooks for applying higher-order functions with stable references",
+  "author": "Li Xu <i@xuli.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lix42/use-high-order.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "higher-order",
+    "debounce",
+    "typescript"
+  ],
+  "type": "module",
+  "module": "index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "files": [
+    "index.ts",
+    "useHighOrder.ts",
+    "useCurrentRef.ts",
+    "useDebounce.ts",
+    "debounce.ts"
+  ],
+  "peerDependencies": {
+    "react": "^18 || ^19"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.10",
+    "@testing-library/react": "^16.3.1",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/bun": "latest",
+    "@types/react": "latest",
+    "happy-dom": "^20.0.11",
+    "react-dom": "^19.2.3",
+    "typescript": "^5"
+  }
+}
